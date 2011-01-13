@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<Chart> 
+ 
+  <request> 
+    <zpid>3333333</zpid> 
+    <unit-type>dollar</unit-type> 
+  </request> 
+    
+  <message> 
+    <text>Request successfully processed</text> 
+    <code>0</code> 
+		
+  </message> 
+ 
+    
+  <response> 
+    <url>http://example.com/url</url> 
+        
+    <graphsanddata>http://example.com/graphsanddata</graphsanddata> 
+        
+  </response> 
+    
+</Chart>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<SearchResults> 
+ 
+  <request> 
+    <address>555 Foo Way</address> 
+    <citystatezip>Nowhere TX</citystatezip> 
+  </request> 
+    
+  <message> 
+    <text>Request successfully processed</text> 
+    <code>0</code> 
+		
+  </message> 
+ 
+    
+  <response> 
+    <results> 
+			
+      <result> 
+        <zpid>3333333</zpid> 
+        <links> 
+          <homedetails>http://example.com/</homedetails> 
+        
+          <graphsanddata>http://example.com/</graphsanddata> 
+        
+          <mapthishome>http://example.com/</mapthishome> 
+        
+          <myestimator>http://example.com/</myestimator> 
+          <myzestimator deprecated="true">http://example.com/</myzestimator> 
+        
+          <comparables>http://example.com/</comparables> 
+        </links> 
+        <address> 
+          <street>555 Foo Way</street> 
+          <zipcode>77777</zipcode> 
+          <city>NOWHERE </city> 
+          <state>TX</state> 
+          <latitude>35.0</latitude> 
+          <longitude>-94.0</longitude> 
+        </address> 
+	
+        <FIPScounty>11111</FIPScounty> 
+        <useCode>SingleFamily</useCode> 
+	
+	
+        <taxAssessmentYear>2000</taxAssessmentYear> 
+        <taxAssessment>138560.0</taxAssessment> 
+        <yearBuilt>1990</yearBuilt> 
+		
+        <finishedSqFt>2077</finishedSqFt> 
+	
+        <zestimate> 
+          <amount currency="USD">125500</amount> 
+          <last-updated>01/03/2011</last-updated> 
+		
+		
+          <oneWeekChange deprecated="true"></oneWeekChange> 
+
+          <valueChange></valueChange> 
+		
+          <valuationRange> 
+            <low currency="USD">95380</low> 
+            <high currency="USD">136795</high> 
+          </valuationRange> 
+          <percentile>0</percentile> 
+        </zestimate> 
+        <localRealEstate> 
+		
+        </localRealEstate> 
+ 
+      </result> 
+    		
+    </results>	    	
+  </response> 
+ 
+</SearchResults> 

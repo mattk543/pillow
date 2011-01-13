@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<root>
+  <message> 
+    <text>Represents some non zero (error) message</text> 
+    <code>1</code> 
+		
+  </message>
+    
+</root>

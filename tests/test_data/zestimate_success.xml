@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<Zestimate> 
+ 
+  <request> 
+    <zpid>3333333</zpid> 
+  </request> 
+ 
+  <message> 
+    <text>Request successfully processed</text> 
+    <code>0</code> 
+		
+  </message> 
+ 
+	
+  <response> 
+    <zpid>3333333</zpid> 
+    <links> 
+      <homedetails>http://example.com/</homedetails> 
+        
+      <graphsanddata>http://example.com/</graphsanddata> 
+        
+      <mapthishome>http://example.com/</mapthishome> 
+        
+      <myestimator>http://example.com/</myestimator> 
+      <myzestimator deprecated="true">http://example.com/</myzestimator> 
+        
+      <comparables>http://example.com/</comparables> 
+    </links> 
+    <address> 
+      <street>555 Foo Way</street> 
+      <zipcode>77777</zipcode> 
+      <city>NOWHERE </city> 
+      <state>TX</state> 
+      <latitude>35.0</latitude> 
+      <longitude>-94.0</longitude> 
+    </address> 
+	
+	
+    <zestimate> 
+      <amount currency="USD">125500</amount> 
+      <last-updated>01/03/2011</last-updated> 
+		
+		
+      <oneWeekChange deprecated="true"></oneWeekChange> 
+		
+		
+		
+      <valueChange></valueChange> 
+		
+      <valuationRange> 
+        <low currency="USD">95380</low> 
+        <high currency="USD">136795</high> 
+      </valuationRange> 
+      <percentile>50</percentile> 
+    </zestimate> 
+    <localRealEstate> 
+		
+    </localRealEstate> 
+			
+    <regions> 
+      <zipcode-id>11111</zipcode-id> 
+      <city-id>22222</city-id> 
+      <county-id>33333</county-id> 
+      <state-id>00</state-id> 
+    </regions> 
+  </response> 
+	
+	
+</Zestimate> 

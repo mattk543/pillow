@@ -1,6 +1,5 @@
 <?php
 require_once('PHPUnit/Framework.php');
-include_once(dirname(__FILE__) . '/../lib/pillow/Base.php');
 include_once(dirname(__FILE__) . '/../lib/pillow/Zestimate.php');
 
 
